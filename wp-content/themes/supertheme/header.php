@@ -18,6 +18,11 @@ $container = get_theme_mod('understrap_container_type');
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;0,700;1,400;1,500&display=swap"
+		  rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -26,9 +31,31 @@ $container = get_theme_mod('understrap_container_type');
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
+	<div id="top-bar">
+		<div class="contact-info">
+			<div class="contact-item phone">
+				<i class="fa fa-phone"></i>
+				+216 50 000
+			</div>
+			<div class="contact-item email">
+				<i class="fa fa-envelope-o"></i>
+				contact@ahmedchouihi.com
+			</div>
+			<div class="contact-item search">
+				<i class="fa fa-search"></i>
+				<input type="text" placeholder="Search..."/>
+			</div>
+		</div>
+		<div class="shipping-info">
+			<i class="fa fa-truck"></i>
+			Free shipping on orders over 100$
+		</div>
+		<div class="login-register">
+			login/register
+		</div>
+	</div>
+
 	<div id="wrapper-navbar">
-
-
 		<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">

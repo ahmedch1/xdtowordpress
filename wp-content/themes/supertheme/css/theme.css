@@ -16083,4 +16083,58 @@ figure.woocommerce-product-gallery__wrapper {
   clip: auto;
 }
 
+body {
+  color: #1A1818;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h3 {
+  font-family: "Crimson Text", serif;
+}
+
+#top-bar {
+  height: 50px;
+  background: #F8A22E;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#top-bar .contact-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#top-bar .contact-info .contact-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#top-bar .contact-info .contact-item .fa {
+  margin-right: 0.5em;
+}
+#top-bar .contact-info input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0.25em 0.5em;
+}
+#top-bar .shipping-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#top-bar .shipping-info .fa {
+  margin-right: 0.5em;
+}
+
 /*# sourceMappingURL=theme.css.map */
