@@ -16103,6 +16103,9 @@ h3 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 #top-bar .contact-info .contact-item {
   display: -webkit-flex;
@@ -16113,6 +16116,13 @@ h3 {
   align-items: center;
   padding-left: 1em;
   padding-right: 1em;
+}
+@media (max-width: 1500px) {
+  #top-bar .contact-info .contact-item {
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+  }
 }
 #top-bar .contact-info .contact-item .fa {
   margin-right: 0.5em;
@@ -16127,14 +16137,81 @@ h3 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase;
+}
+@media (max-width: 1500px) {
+  #top-bar .shipping-info {
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+  }
+}
+@media (max-width: 992px) {
+  #top-bar .shipping-info {
+    display: none;
+  }
+}
+#top-bar .shipping-info .fa {
+  margin-right: 0.5em;
+}
+#top-bar .mobile-menu {
+  text-transform: uppercase;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: none;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (max-width: 992px) {
+  #top-bar .mobile-menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+#top-bar .login-register {
+  text-transform: uppercase;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   padding-left: 1em;
   padding-right: 1em;
 }
-#top-bar .shipping-info .fa {
-  margin-right: 0.5em;
+@media (max-width: 1500px) {
+  #top-bar .login-register {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 992px) {
+  #top-bar .login-register {
+    display: none;
+  }
+}
+#top-bar .login-register .fa {
+  margin-left: 0.5em;
 }
 
 /*# sourceMappingURL=theme.css.map */

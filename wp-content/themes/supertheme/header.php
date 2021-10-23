@@ -32,6 +32,13 @@ $container = get_theme_mod('understrap_container_type');
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="top-bar">
+		<div class="login-register-mobile">
+			<i class="fa fa-user-circle"></i>
+			Login
+		</div>
+		<div class="login-register-mobile">
+
+		</div>
 		<div class="contact-info">
 			<div class="contact-item phone">
 				<i class="fa fa-phone"></i>
@@ -51,7 +58,13 @@ $container = get_theme_mod('understrap_container_type');
 			Free shipping on orders over 100$
 		</div>
 		<div class="login-register">
-			login/register
+			Login/register
+			<i class="fa fa-user-circle"></i>
+		</div>
+		<div class="mobile-menu">
+			Menu
+			<i class="fa fa-bars"></i>
+
 		</div>
 	</div>
 
